@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "D:\\Web\\VscWorkSpace"
+		},
+		{
+			"path": "..\\..\\git\\Shall_we_meet"
+		},
+		{
+			"path": "D:\\Project2\\liquorstore-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "liquorstore-master"
+	}
+}
