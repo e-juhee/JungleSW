@@ -12,6 +12,9 @@
     div.question-box {
       margin: 10px 0 20px 0;
     }
+    #red{
+      color: red;
+    }
   </style>
 
   <script>
@@ -26,7 +29,12 @@
             let data = response["RealtimeCityAir"]["row"][i]
             let city = data["MSRSTE_NM"]
             let num = data["IDEX_MVL"]
+            
+            if(num>=50){
+              $('#names-q1').append(`<li id="red">${city} : ${num}</li>`)
+            }
             $('#names-q1').append(`<li>${city} : ${num}</li>`)
+
           }
         }
     })
